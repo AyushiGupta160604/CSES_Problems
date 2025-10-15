@@ -2,8 +2,7 @@ import java.util.Scanner;
 public class PS1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int input = sc.nextInt();
-        long n = input;
+        long n = sc.nextInt();
         while(n != 1){
             System.out.print(n + " ");
             if(n % 2 == 0){
